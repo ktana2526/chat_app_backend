@@ -2,7 +2,7 @@ const axios = require("axios");
 
 const cityName = 'Tokyo';
 const apiKey = process.env.OPEN_WEATHER_API_KEY; // API KEYは環境変数で指定
-const openWeatherUrl = 'http://api.openweathermap.org/data/2.5/weather?q=' + cityName + '&appid=' + apiKey
+const openWeatherUrl = 'https://api.openweathermap.org/data/2.5/weather?q=' + cityName + '&appid=' + apiKey
 
 // OpenWeatherMapアクセスクラス
 module.exports = class OpenWeatherMap {
