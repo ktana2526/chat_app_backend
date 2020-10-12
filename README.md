@@ -12,7 +12,7 @@ Webアプリケーション開発課題(Botとのチャットアプリケーシ�
 - node.js (v12.19.0 で動作確認済み)
 
 2. 以下のユーザ登録が必要です。
-- OpenWeatherMap
+- OpenWeatherMap  
 https://openweathermap.org/
 
 ## 実行方法
