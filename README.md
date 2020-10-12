@@ -40,7 +40,7 @@ CREATE TABLE history (
 ```
 
 4. 環境変数の設定ファイル(.env)を設定します。
-chat_app_backend フォルダと同じ階層に.envファイルを作成してください。
+chat_app_backend フォルダの直下に.envファイルを作成してください。
 ```
 # DB(postgres)の接続文字列(例ではtestという名称のデータベースを指定)
 DB_CONNSTR=postgresql://postgres:password@localhost:5432/test
