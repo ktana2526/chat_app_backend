@@ -6,6 +6,13 @@ Webアプリケーション開発課題(Botとのチャットアプリケーシ�
 - node.js (v12.19.0)
 - koa.js (v2.13.0)
 
+UIサーバ(フロントエンド)と連動して動作します。  
+https://github.com/ktana2526/chat_app_frontend
+
+## システム構成
+
+![画面イメージ](https://github.com/ktana2526/chat_app_backend/blob/master/img/system_configuration_diagram.png)
+
 ## 前提条件
 1. 実行環境に以下のインストールが必要です。
 - PostgreSQL (12.4-1-windows-x64 で動作確認済み)
